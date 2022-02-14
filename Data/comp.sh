@@ -1,0 +1,1 @@
+g++ Error.cpp -o Error
