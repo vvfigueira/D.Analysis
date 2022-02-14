@@ -151,7 +151,7 @@ void gp(){
         Rezid->SetPoint(m, x2[0], -(Per(x2,par) - x2[2])/x2[3]);
         Rezid->SetPointError(m, x2[1], x2[3]);
 
-        if(file.eof()) ;
+        if(file.eof()) break;
 
     }
 
